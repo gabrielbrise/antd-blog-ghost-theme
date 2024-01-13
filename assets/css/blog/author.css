@@ -12,9 +12,8 @@
 
 .author {
     display: flex;
-    padding: 30px;
-    background-color: var(--light-gray-color);
-    border-radius: 6px;
+    padding: 12px;
+    border-left: var(--ghost-accent-color) solid 4px;
 }
 
 .author + .author {
