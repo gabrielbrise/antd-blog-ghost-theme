@@ -1,20 +1,49 @@
 .site {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+.has-light-text a {
+  color: var(--ghost-accent-color);
+}
+
+.has-light-text a.subscribe {
+  color: var(--color-white);
+}
+
+.has-light-text a.subscribe-link {
+  color: var(--color-white);
+}
+
+.has-light-text .gh-icon-btn {
+  color: var(--ghost-accent-color);
+}
+
+.has-light-text body {
+  color: var(--color-white);
+}
+
+.has-light-text h1,h2,h3,h4,h5 {
+  color: var(--ghost-accent-color);
+}
+
+a.gh-primary-btn {
+  color: var(--color-white);
 }
 
 .site-content {
-    flex-grow: 1;
-    padding: 80px 0 40px;
+  flex-grow: 1;
+  padding: 80px 0 40px;
 }
 
 .page-template .site-content {
-    padding-block: 0;
+  padding-block: 0;
 }
 
 @media (max-width: 767px) {
-    .site-content {
-        padding: 40px 0;
-    }
+  .site-content {
+    padding: 40px 0;
+  }
 }

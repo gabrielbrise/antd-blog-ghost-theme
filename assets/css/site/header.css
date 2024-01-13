@@ -1,5 +1,6 @@
 .gh-head {
     font-weight: 500;
+    background-color: var(--background-color);
 }
 
 /* .gh-head-btn.gh-btn {
